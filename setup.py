@@ -5,12 +5,12 @@ import sys
 import os.path
 from setuptools import find_packages
 
-DISTNAME = 'didypro'
+DISTNAME = 'didyprog'
 DESCRIPTION = "Differentiable Dynamic Programming"
 LONG_DESCRIPTION = open('README.md').read()
 MAINTAINER = 'Arthur Mensch'
 MAINTAINER_EMAIL = 'arthur.mensch@m4x.org'
-URL = 'github.com/arthurmensch/didypro'
+URL = 'github.com/arthurmensch/didyprog'
 LICENSE = 'MIT License'
 DOWNLOAD_URL = ''
 VERSION = '0.1.dev0'
@@ -26,7 +26,7 @@ def configuration(parent_package='', top_path=None):
                        delegate_options_to_subpackages=True,
                        quiet=True)
 
-    config.add_subpackage('didypro')
+    config.add_subpackage('didyprog')
 
     return config
 
